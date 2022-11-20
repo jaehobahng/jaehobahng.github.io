@@ -627,7 +627,7 @@ sns.despine(left=True)
 
 
     
-![png](output_16_1.png)
+<img src="\assets\images\HousePrice\output_16_1.png" alt="Alt text">
     
 
 
@@ -670,7 +670,7 @@ plt.show()
 
 
     
-![png](output_21_0.png)
+<img src="\assets\images\HousePrice\output_21_0.png" alt="Alt text">
     
 
 
@@ -710,8 +710,7 @@ plt.show()
 
 
     
-![png](output_25_0.png)
-    
+<img src="\assets\images\HousePrice\output_25_0.png" alt="Alt text">
 
 
 # 4. Feature Engineering
@@ -736,7 +735,7 @@ sns.despine(left=True)
 
 
     
-![png](output_28_1.png)
+<img src="\assets\images\HousePrice\output_28_1.png" alt="Alt text">
     
 
 
@@ -754,8 +753,7 @@ sns.despine(left=True)
 
 
     
-![png](output_29_1.png)
-    
+<img src="\assets\images\HousePrice\output_29_1.png" alt="Alt text">
 
 
 
@@ -926,7 +924,7 @@ plt.show()
 
 
     
-![png](output_43_0.png)
+<img src="\assets\images\HousePrice\output_43_0.png" alt="Alt text">
     
 
 
@@ -1443,7 +1441,7 @@ sns.distplot(submission_pred)
 
 
     
-![png](output_75_2.png)
+<img src="\assets\images\HousePrice\output_75_2.png" alt="Alt text">
     
 
 
