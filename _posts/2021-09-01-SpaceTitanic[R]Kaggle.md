@@ -1,3 +1,7 @@
+---
+categories: Kaggle, R
+---
+
 ```R
 library(dplyr)
 library(ggplot2)
@@ -290,7 +294,7 @@ full$VIP <- complete(mice_mod)$VIP
 
 
     
-![png](output_13_0.png)
+<img src="\assets\images\SpaceTitanicR\output_13_0.png" alt="Alt text">
     
 
 
@@ -665,8 +669,8 @@ grid.arrange(
 
 
     
-![png](output_22_0.png)
-    
+<img src="\assets\images\SpaceTitanicR\output_22_0.png" alt="Alt text">
+
 
 
 
@@ -700,8 +704,8 @@ grid.arrange(ggplot(na.omit(full),aes(x=fee,fill=Transported)) + geom_histogram(
 
 
     
-![png](output_23_1.png)
-    
+<img src="\assets\images\SpaceTitanicR\output_23_1.png" alt="Alt text">
+
 
 
 
@@ -718,7 +722,8 @@ ggplot(na.omit(full),aes(x=FoodCourt,fill=Transported)) + geom_histogram(positio
 
 
     
-![png](output_24_1.png)
+<img src="\assets\images\SpaceTitanicR\output_24_1.png" alt="Alt text">
+
     
 
 
@@ -733,7 +738,8 @@ grid.arrange(ggplot(na.omit(full),aes(x=VIP,fill=Transported)) + geom_bar(,posit
 
 
     
-![png](output_25_0.png)
+<img src="\assets\images\SpaceTitanicR\output_25_0.png" alt="Alt text">
+
     
 
 
