@@ -1,3 +1,7 @@
+---
+categories: Kaggle Python
+---
+
 ```python
 import os
 import pandas as pd
@@ -660,7 +664,7 @@ g = sns.heatmap(train[["Survived","SibSp","Parch","Age","Fare"]].corr(),annot=Tr
 
 
     
-![png](output_17_0.png)
+<img src="\assets\images\TitanicPython\output_17_0.png" alt="Alt text">
     
 
 
@@ -681,7 +685,7 @@ g = g.set_ylabels("survival probability")
 
 
     
-![png](output_18_1.png)
+<img src="\assets\images\TitanicPython\output_18_1.png" alt="Alt text">
     
 
 
@@ -702,7 +706,7 @@ g = g.set_ylabels("survival probability")
 
 
     
-![png](output_19_1.png)
+<img src="\assets\images\TitanicPython\output_19_1.png" alt="Alt text">
     
 
 
@@ -721,7 +725,7 @@ g = g.map(sns.distplot, "Age")
 
 
     
-![png](output_20_1.png)
+<img src="\assets\images\TitanicPython\output_20_1.png" alt="Alt text">
     
 
 
@@ -737,7 +741,7 @@ g = g.legend(["Not Survived","Survived"])
 
 
     
-![png](output_21_0.png)
+<img src="\assets\images\TitanicPython\output_21_0.png" alt="Alt text">
     
 
 
@@ -794,7 +798,7 @@ g = g.legend(loc="best")
 
 
     
-![png](output_25_1.png)
+<img src="\assets\images\TitanicPython\output_25_1.png" alt="Alt text">
     
 
 
@@ -816,7 +820,7 @@ g = g.legend(loc="best")
 
 
     
-![png](output_27_1.png)
+<img src="\assets\images\TitanicPython\output_27_1.png" alt="Alt text">
     
 
 
@@ -837,7 +841,7 @@ g = g.set_ylabels("survival probability")
 
 
     
-![png](output_28_1.png)
+<img src="\assets\images\TitanicPython\output_28_1.png" alt="Alt text">
     
 
 
@@ -858,8 +862,7 @@ g = g.set_ylabels("survival probability")
 
 
     
-![png](output_29_1.png)
-    
+<img src="\assets\images\TitanicPython\output_29_1.png" alt="Alt text">
 
 
 
@@ -897,7 +900,7 @@ g = g.set_ylabels("survival probability")
 
 
     
-![png](output_32_1.png)
+<img src="\assets\images\TitanicPython\output_32_1.png" alt="Alt text">
     
 
 
@@ -906,7 +909,7 @@ g = g.set_ylabels("survival probability")
 # Explore Pclass vs Embarked 
 g = sns.factorplot("Pclass", col="Embarked",  data=train,
                    size=6, kind="count", palette="muted")
-g.despine(left=True)
+g.despine(left=True)![png]
 g = g.set_ylabels("Count")
 ```
 
@@ -920,7 +923,7 @@ g = g.set_ylabels("Count")
 
 
     
-![png](output_33_1.png)
+<img src="\assets\images\TitanicPython\output_33_1.png" alt="Alt text">
     
 
 
@@ -947,25 +950,25 @@ g = sns.factorplot(y="Age",x="SibSp", data=dataset,kind="box")
 
 
     
-![png](output_35_1.png)
+<img src="\assets\images\TitanicPython\output_35_1.png" alt="Alt text">
     
 
 
 
     
-![png](output_35_2.png)
+<img src="\assets\images\TitanicPython\output_35_2.png" alt="Alt text">
     
 
 
 
     
-![png](output_35_3.png)
+<img src="\assets\images\TitanicPython\output_35_3.png" alt="Alt text">
     
 
 
 
     
-![png](output_35_4.png)
+<img src="\assets\images\TitanicPython\output_35_4.png" alt="Alt text">
     
 
 
@@ -982,7 +985,7 @@ g = sns.heatmap(dataset[["Age","Sex","SibSp","Parch","Pclass"]].corr(),cmap="BrB
 
 
     
-![png](output_37_0.png)
+<img src="\assets\images\TitanicPython\output_37_0.png" alt="Alt text">
     
 
 
@@ -1024,13 +1027,13 @@ g = sns.factorplot(x="Survived", y = "Age",data = train, kind="violin")
 
 
     
-![png](output_39_1.png)
+<img src="\assets\images\TitanicPython\output_39_1.png" alt="Alt text">
     
 
 
 
     
-![png](output_39_2.png)
+<img src="\assets\images\TitanicPython\output_39_2.png" alt="Alt text">
     
 
 
@@ -1081,7 +1084,7 @@ g = plt.setp(g.get_xticklabels(), rotation=45)
 
 
     
-![png](output_43_0.png)
+<img src="\assets\images\TitanicPython\output_43_0.png" alt="Alt text">
     
 
 
@@ -1105,7 +1108,7 @@ g = g.set_xticklabels(["Master","Miss/Ms/Mme/Mlle/Mrs","Mr","Rare"])
 
 
     
-![png](output_45_1.png)
+<img src="\assets\images\TitanicPython\output_45_1.png" alt="Alt text">
     
 
 
@@ -1122,7 +1125,7 @@ g = g.set_ylabels("survival probability")
 
 
     
-![png](output_46_1.png)
+<img src="\assets\images\TitanicPython\output_46_1.png" alt="Alt text">
     
 
 
@@ -1152,7 +1155,7 @@ g = g.set_ylabels("Survival Probability")
 
 
     
-![png](output_50_1.png)
+<img src="\assets\images\TitanicPython\output_50_1.png" alt="Alt text">
     
 
 
@@ -1189,25 +1192,25 @@ g = g.set_ylabels("Survival Probability")
 
 
     
-![png](output_52_1.png)
+<img src="\assets\images\TitanicPython\output_52_1.png" alt="Alt text">
     
 
 
 
     
-![png](output_52_2.png)
+<img src="\assets\images\TitanicPython\output_52_2.png" alt="Alt text">
     
 
 
 
     
-![png](output_52_3.png)
+<img src="\assets\images\TitanicPython\output_52_3.png" alt="Alt text">
     
 
 
 
     
-![png](output_52_4.png)
+<img src="\assets\images\TitanicPython\output_52_4.png" alt="Alt text">
     
 
 
@@ -1474,7 +1477,7 @@ g = sns.countplot(dataset["Cabin"],order=['A','B','C','D','E','F','G','T','X'])
 
 
     
-![png](output_60_1.png)
+<img src="\assets\images\TitanicPython\output_60_1.png" alt="Alt text">
     
 
 
@@ -1490,7 +1493,7 @@ g = g.set_ylabels("Survival Probability")
 
 
     
-![png](output_61_1.png)
+<img src="\assets\images\TitanicPython\output_61_1.png" alt="Alt text">
     
 
 
@@ -1820,7 +1823,7 @@ g = g.set_title("Cross validation scores")
 
 
     
-![png](output_76_1.png)
+<img src="\assets\images\TitanicPython\output_76_1.png" alt="Alt text">
     
 
 
@@ -2042,31 +2045,31 @@ g = plot_learning_curve(gsGBC.best_estimator_,"GradientBoosting learning curves"
 
 
     
-![png](output_86_0.png)
+<img src="\assets\images\TitanicPython\output_86_0.png" alt="Alt text">
     
 
 
 
     
-![png](output_86_1.png)
+<img src="\assets\images\TitanicPython\output_86_1.png" alt="Alt text">
     
 
 
 
     
-![png](output_86_2.png)
+<img src="\assets\images\TitanicPython\output_86_2.png" alt="Alt text">
     
 
 
 
     
-![png](output_86_3.png)
+<img src="\assets\images\TitanicPython\output_86_3.png" alt="Alt text">
     
 
 
 
     
-![png](output_86_4.png)
+<img src="\assets\images\TitanicPython\output_86_4.png" alt="Alt text">
     
 
 
@@ -2096,7 +2099,7 @@ for row in range(nrows):
 
 
     
-![png](output_88_0.png)
+<img src="\assets\images\TitanicPython\output_88_0.png" alt="Alt text">
     
 
 
@@ -2118,7 +2121,7 @@ g= sns.heatmap(ensemble_results.corr(),annot=True)
 
 
     
-![png](output_89_0.png)
+<img src="\assets\images\TitanicPython\output_89_0.png" alt="Alt text">
     
 
 
