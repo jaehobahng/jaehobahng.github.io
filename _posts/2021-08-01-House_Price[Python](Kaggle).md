@@ -1,5 +1,5 @@
 ---
-categories: Python, Kaggle
+categories: Kaggle Python
 ---
 
 
