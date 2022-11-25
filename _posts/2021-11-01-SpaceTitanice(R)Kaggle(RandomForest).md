@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "XGBoost"
+title: "SpaceTitanice(R)Kaggle(RandomForest)"
 categories: Kaggle R
 tag: coding
 ---
